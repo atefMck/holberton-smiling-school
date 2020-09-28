@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'holberton';
+    src: url('holberton_school-icon/fonts/holberton_school-icon.eot'); /* IE9 Compat Modes */
+    src: url('holberton_school-icon/fonts/holberton_school-icon.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('holberton_school-icon/fonts/holberton_school-icon.woff') format('woff'), /* Pretty Modern Browsers */
+         url('holberton_school-icon/fonts/holberton_school-icon.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('holberton_school-icon/fonts/holberton_school-icon.svg#holberton_school-icon') format('svg'); /* Legacy iOS */
+  }
+
+* {
+    font-family: holberton, serif;
+}
+
+.section-pro {
+    background-image: url('images/pic_1.jpg');
+    background-size: cover;
+    height: 1093px;
+}
+
+.section-pro header {
+    text-align: center;
+}
+
+.section-pro header img {
+    width: 35px;
+    height: 30px;
+}
